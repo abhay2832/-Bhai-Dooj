@@ -152,9 +152,18 @@ function stage(t){const sa=A(8.2,1);if(sa<=0)return;c.save();c.globalAlpha=sa;
  c.fillStyle='#2a2a33';rr(594,1088,52,36,7);fo();c.fillStyle='#8aa0c0';c.beginPath();c.arc(620,1106,12,0,7);fo();c.fillStyle='#fff';c.beginPath();c.arc(616,1102,3.5,0,7);c.fill();c.fillStyle=fl?'#fff':'#ffd45a';c.fillRect(602,1082,12,6);
  [[bx,()=>toon(bx,gy,hop,false,fb,wB,0,bow,tl,m1,false)],[g1,()=>toon(g1,gy,hop,true,f1,w1,a1,0,0,m1,lt<6.2,P1)],[g2,()=>toon(g2,gy,hop,true,f2,w2,a2,0,0,m2,lt>=11&&lt<16.2,P2)]].sort((p,q)=>p[0]-q[0]).forEach(q=>q[1]());
  const BB=(a,b,x,s)=>{if(lt>a&&lt<b)bub(s,x,1008)};
- BB(2.2,3.4,bx,'बहना, आ गया!');BB(3.4,5.2,g1,'भैया, तिलक!');BB(5.3,6.3,bx,'थैंक्यू बहना ❤');BB(6.5,7,g1,'अब फोटो!');
- BB(11.6,13.2,g2,'भैया, मैं भी आई!');BB(13.6,15.4,g2,'मेरा भी तिलक!');BB(15.5,16.6,bx,'थैंक्यू '+S.n2+' ❤');
- BB(16.7,18,g1,'हम तीनों की फोटो!');BB(18,19.2,bx,'हाँ, सब आ जाओ!');BB(19.2,20.2,g2,'कैमरा तैयार है!');
+BB(2.2, 3.4, bx, 'बहना, आ गया!');
+BB(3.4, 5.2, g1, 'भैया, तिलक!');
+BB(5.3, 6.3, bx, 'थैंक्यू बहना ❤');
+BB(6.5, 7, g1, 'अब फोटो!');
+
+BB(11.6, 13.2, g2, 'भैया, मैं भी आई!');
+BB(13.6, 15.4, g2, 'मेरा भी तिलक!');
+BB(15.5, 16.6, bx, 'थैंक्यू दीदी ❤');
+
+BB(16.7, 18, g1, 'हम तीनों की फोटो!');
+BB(18, 19.2, bx, 'हाँ, सब आ जाओ!');
+BB(19.2, 20.2, g2, 'कैमरा तैयार है!');
  [[7,9.4],[21.4,23.8]].forEach(q=>{if(lt>=q[0]&&lt<q[1]){const n=3-Math.floor((lt-q[0])/.8);c.fillStyle='#b01c1c';c.beginPath();c.arc(620,1046,22,0,7);c.fill();T(String(n),620,1057,30,900,'#fff6d6')}});
  [[9.4,260],[23.8,230]].forEach(q=>{if(lt>=q[0]&&lt<q[0]+1.2){const p=(lt-q[0])/1.2;c.fillStyle='rgba(255,255,255,'+(.7*(1-clamp(p*2.5)))+')';c.fillRect(50,985,W-100,222);c.save();c.globalAlpha=clamp(1-p*.6);c.translate(540,1040-p*6);const z=.6+.4*eb(clamp(p*3));c.scale(z,z);T('📸 क्लिक!',0,0,32,900,'#b01c1c');c.restore();
   for(let i=0;i<5;i++){c.globalAlpha=1-p;c.fillStyle='#e0204a';c.font=`22px ${FF}`;c.fillText('❤',q[1]+i*34,1090-p*70-i*4)}c.globalAlpha=1}});
